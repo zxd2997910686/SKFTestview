@@ -9,7 +9,7 @@
 #import "secondViewController.h"
 #import "thridViewController.h"
 @interface secondViewController ()
-
+@property(nonatomic,strong)UIImageView *ceterImageView;
 @end
 
 @implementation secondViewController
@@ -18,6 +18,7 @@
     [super viewDidLoad];
     self.title = @"第二个控制器";
     self.view.backgroundColor = [UIColor yellowColor];
+    [self.view addSubview:self.ceterImageView];
     
     // Do any additional setup after loading the view.
 }
@@ -28,7 +29,17 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
+-(UIImageView *)ceterImageView{
+    if (!_ceterImageView) {
+        _ceterImageView = [[UIImageView alloc] init];
+        _ceterImageView.frame = CGRectMake(100, 100, 100, 100);
+       
+        UIImage *image = [UIImage imageNamed:@"faultimp"];
+        _ceterImageView.image = image;
+    }
+    
+    return _ceterImageView;
+}
 /*
 #pragma mark - Navigation
 

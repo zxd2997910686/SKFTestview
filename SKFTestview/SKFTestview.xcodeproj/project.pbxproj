@@ -18,6 +18,12 @@
 		F74327C91E84C795004EB478 /* fristViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F74327C41E84C795004EB478 /* fristViewController.m */; };
 		F74327CA1E84C795004EB478 /* secondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F74327C61E84C795004EB478 /* secondViewController.m */; };
 		F74327CB1E84C795004EB478 /* thridViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F74327C81E84C795004EB478 /* thridViewController.m */; };
+		F74328141E850788004EB478 /* faultimp@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F743280E1E850788004EB478 /* faultimp@2x.png */; };
+		F74328151E850788004EB478 /* faultimp@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F743280F1E850788004EB478 /* faultimp@3x.png */; };
+		F74328161E850788004EB478 /* faultnormal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F74328101E850788004EB478 /* faultnormal@2x.png */; };
+		F74328171E850788004EB478 /* faultnormal@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F74328111E850788004EB478 /* faultnormal@3x.png */; };
+		F74328181E850788004EB478 /* taskphone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F74328121E850788004EB478 /* taskphone@2x.png */; };
+		F74328191E850788004EB478 /* taskphone@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F74328131E850788004EB478 /* taskphone@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +66,12 @@
 		F74327C61E84C795004EB478 /* secondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = secondViewController.m; sourceTree = "<group>"; };
 		F74327C71E84C795004EB478 /* thridViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = thridViewController.h; sourceTree = "<group>"; };
 		F74327C81E84C795004EB478 /* thridViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = thridViewController.m; sourceTree = "<group>"; };
+		F743280E1E850788004EB478 /* faultimp@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "faultimp@2x.png"; sourceTree = "<group>"; };
+		F743280F1E850788004EB478 /* faultimp@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "faultimp@3x.png"; sourceTree = "<group>"; };
+		F74328101E850788004EB478 /* faultnormal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "faultnormal@2x.png"; sourceTree = "<group>"; };
+		F74328111E850788004EB478 /* faultnormal@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "faultnormal@3x.png"; sourceTree = "<group>"; };
+		F74328121E850788004EB478 /* taskphone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "taskphone@2x.png"; sourceTree = "<group>"; };
+		F74328131E850788004EB478 /* taskphone@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "taskphone@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +102,12 @@
 		F74327791E84C65D004EB478 = {
 			isa = PBXGroup;
 			children = (
+				F743280E1E850788004EB478 /* faultimp@2x.png */,
+				F743280F1E850788004EB478 /* faultimp@3x.png */,
+				F74328101E850788004EB478 /* faultnormal@2x.png */,
+				F74328111E850788004EB478 /* faultnormal@3x.png */,
+				F74328121E850788004EB478 /* taskphone@2x.png */,
+				F74328131E850788004EB478 /* taskphone@3x.png */,
 				F74327841E84C65D004EB478 /* SKFTestview */,
 				F743279E1E84C65E004EB478 /* SKFTestviewTests */,
 				F74327A91E84C65E004EB478 /* SKFTestviewUITests */,
@@ -269,9 +287,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F74328171E850788004EB478 /* faultnormal@3x.png in Resources */,
+				F74328161E850788004EB478 /* faultnormal@2x.png in Resources */,
+				F74328181E850788004EB478 /* taskphone@2x.png in Resources */,
 				F74327951E84C65D004EB478 /* LaunchScreen.storyboard in Resources */,
 				F74327921E84C65D004EB478 /* Assets.xcassets in Resources */,
+				F74328141E850788004EB478 /* faultimp@2x.png in Resources */,
+				F74328191E850788004EB478 /* taskphone@3x.png in Resources */,
 				F74327901E84C65D004EB478 /* Main.storyboard in Resources */,
+				F74328151E850788004EB478 /* faultimp@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -533,6 +557,7 @@
 				F74327B11E84C65E004EB478 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F74327B21E84C65E004EB478 /* Build configuration list for PBXNativeTarget "SKFTestviewTests" */ = {
 			isa = XCConfigurationList;
@@ -541,6 +566,7 @@
 				F74327B41E84C65E004EB478 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F74327B51E84C65E004EB478 /* Build configuration list for PBXNativeTarget "SKFTestviewUITests" */ = {
 			isa = XCConfigurationList;
@@ -549,6 +575,7 @@
 				F74327B71E84C65E004EB478 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
