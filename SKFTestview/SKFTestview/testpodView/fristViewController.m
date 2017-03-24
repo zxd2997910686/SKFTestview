@@ -21,6 +21,9 @@
     // Do any additional setup after loading the view.
 }
 -(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+    NSUserDefaults *stand = [NSUserDefaults standardUserDefaults];
+    
+    [stand setObject:@"我是用单例保存的" forKey:@"thridTitle"];
     [self.navigationController pushViewController:[secondViewController new] animated:YES];
 }
 - (void)didReceiveMemoryWarning {

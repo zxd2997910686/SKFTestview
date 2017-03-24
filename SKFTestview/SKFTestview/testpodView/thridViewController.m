@@ -16,14 +16,17 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.title = @"第三个控制器";
+    NSUserDefaults *stand = [NSUserDefaults standardUserDefaults];
+    NSString *title = [stand objectForKey:@"thridTitle"];
+    self.title = title;
+    
     self.view.backgroundColor = [UIColor blueColor];
     // Do any additional setup after loading the view.
 }
 -(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
-   // [self.navigationController popToRootViewControllerAnimated:YES];
-    AppDelegate  *appDelegate = (AppDelegate *)[UIApplication sharedApplication].delegate;
-     [appDelegate loginSuccess];
+    [self.navigationController popToRootViewControllerAnimated:YES];
+    //AppDelegate  *appDelegate = (AppDelegate *)[UIApplication sharedApplication].delegate;
+    // [appDelegate loginSuccess];
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
