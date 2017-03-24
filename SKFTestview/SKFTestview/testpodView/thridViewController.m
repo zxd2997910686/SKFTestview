@@ -7,7 +7,7 @@
 //
 
 #import "thridViewController.h"
-#import "AppDelegate.h"
+//#import "AppDelegate.h"
 @interface thridViewController ()
 
 @end
