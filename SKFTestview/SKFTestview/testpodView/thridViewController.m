@@ -7,7 +7,7 @@
 //
 
 #import "thridViewController.h"
-//#import "AppDelegate.h"
+
 @interface thridViewController ()
 
 @end
@@ -25,8 +25,7 @@
 }
 -(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
     [self.navigationController popToRootViewControllerAnimated:YES];
-    //AppDelegate  *appDelegate = (AppDelegate *)[UIApplication sharedApplication].delegate;
-    // [appDelegate loginSuccess];
+   
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

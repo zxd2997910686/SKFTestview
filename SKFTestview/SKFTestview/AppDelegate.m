@@ -19,6 +19,9 @@
     // Override point for customization after application launch.
     UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:[fristViewController new]];
     self.window.rootViewController = nav;
+    NSUserDefaults *stand = [NSUserDefaults standardUserDefaults];
+    
+    [stand setObject:@"我是用单例保存的" forKey:@"thridTitle"];
     [self.window makeKeyAndVisible];
     return YES;
 }
